@@ -160,12 +160,17 @@ hr {
     padding: 0;
 }
 
+button,
 input,
 select {
     vertical-align: middle;
     border: 0;
     box-shadow: none;
     outline: none !important;
+}
+
+.accordion-button:focus { 
+    box-shadow: none;
 }
 
 .owl-carousel img {
