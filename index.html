@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Alpha Valve</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+ 
+
+    <nav class="navbar navbar-expand-lg navArea">
+        <div class="container">
+            <div class="nabLogo d-flex gap-3">
+                <a class="align-self-center" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+                <a class="navbar-brand align-self-center" href="#">
+                    <img src="assets/img/logo.png" alt="">
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                        <img src="assets/img/logo.png" alt="">
+                    </h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav align-self-center justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">The Company</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Resources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="nabRight align-self-center">
+                        <div class="dropdown search-dropdown">
+                            <button class="searchIcon" type="button" id="searchDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end searchBox" aria-labelledby="searchDropdown">
+                                <form action="/" class="d-flex">
+                                    <input class="search-input " name="search" placeholder="Search " aria-label="Search ">
+                                    <button class="search-btn " type="submit"><i class="fa-solid fa-magnifying-glass"></i> </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                <img src="assets/img/logo.png" alt="">
+            </h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="navCatagories">
+                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">The Company</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="bannerSlid owl-carousel owl-theme">
+        <div class="BannerSlid">
+            <div class="container">
+                <div class="bannerRow">
+                    <div class="banner-img">
+                        <img src="assets/img/archives.png" alt="">
+                    </div>
+                    <div class="banner-text">
+                        <img src="assets/img/adca.png" class="sLogo" alt="">
+                        <p> Far far away, behind the word mountains,far from the countries Vokalia and Consonantia, there live the blind texts. Sepa-rated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. </p>
+                        <a href="#" class="theme-btn btn-md">CHECK ALL PRODUCTS</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="BannerSlid">
+            <div class="container">
+                <div class="bannerRow">
+                    <div class="banner-img">
+                        <img src="assets/img/archives.png" alt="">
+                    </div>
+                    <div class="banner-text">
+                        <img src="assets/img/adca.png" class="sLogo" alt="">
+                        <p> Far far away, behind the word mountains,far from the countries Vokalia and Consonantia, there live the blind texts. Sepa-rated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. </p>
+                        <a href="#" class="theme-btn btn-md">CHECK ALL PRODUCTS</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="BannerSlid">
+            <div class="container">
+                <div class="bannerRow">
+                    <div class="banner-img">
+                        <img src="assets/img/archives.png" alt="">
+                    </div>
+                    <div class="banner-text">
+                        <img src="assets/img/adca.png" class="sLogo" alt="">
+                        <p> Far far away, behind the word mountains,far from the countries Vokalia and Consonantia, there live the blind texts. Sepa-rated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. </p>
+                        <a href="#" class="theme-btn btn-md">CHECK ALL PRODUCTS</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="feature-section pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 align-self-center">
+                    <div class="section-title">
+                        <span>About Us</span>
+                        <div class="h2">Always reliable and affordable prices</div>
+                    </div>
+                    <div class="feature-two-content">
+                        <p>We have operated with an unwavering commitment honesty and integrity. It’s one of our core values. That’s how we were raised; that’s how we do business, and that’s how we conduct ourselves personally.</p>
+                        <a class="readMore-btn" href="#">Our features </a>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="single-feature-item">
+                        <div class="single-feature-list">
+                            <div class="feature-icon">
+                                <i class="pe-7s-home"></i>
+                            </div>
+                            <div class="feature-content">
+                                <div class="h4">24/7 services</div>
+                                <p>We try our best to bring the customer the greatest service, so, you can place your trust</p>
+                            </div>
+                        </div>
+                        <div class="single-feature-list">
+                            <div class="feature-icon">
+                                <i class="pe-7s-like2"></i>
+                            </div>
+                            <div class="feature-content">
+                                <div class="h4">High quality</div>
+                                <p>ConeBrick only provides the high quality service, you don't need to worry about the result</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="feature-video-popup pt-4">
+                        <img src="assets/img/popup-img.webp" alt="">
+                        <a href="http://www.youtube.com/watch?v=0O2aH4XLbto" class="popupVideo videoBtn">
+                            <i class="pe-7s-play"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="industry-area pb-100">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="industry-content owl-carousel owl-theme">
+                        <div class="industry-item">
+                            <div class="industry-title">Textile <br/> Industry</div>
+                            <div class="industry-text">
+                                <p>We are providing different services in this sector.</p>
+                                <a href="" class="readMore-btn">Read More</a>
+                            </div>
+                            <div class="industry-icon-box">
+                                <div class="icon-box">
+                                    <img src="assets/img/industry-icon/1.png" alt="">
+                                </div>
+                                <div class="icon-text">
+                                    01
+                                </div>
+                            </div>
+                        </div>
+                        <div class="industry-item">
+                            <div class="industry-title">Food <br/> Industry</div>
+                            <div class="industry-text">
+                                <p>We are providing different services in this sector.</p>
+                                <a href="" class="readMore-btn">Read More</a>
+                            </div>
+                            <div class="industry-icon-box">
+                                <div class="icon-box">
+                                    <img src="assets/img/industry-icon/2.png" alt="">
+                                </div>
+                                <div class="icon-text">
+                                    02
+                                </div>
+                            </div>
+                        </div>
+                        <div class="industry-item">
+                            <div class="industry-title">Agero <br/> Industry</div>
+                            <div class="industry-text">
+                                <p>We are providing different services in this sector.</p>
+                                <a href="" class="readMore-btn">Read More</a>
+                            </div>
+                            <div class="industry-icon-box">
+                                <div class="icon-box">
+                                    <img src="assets/img/industry-icon/3.png" alt="">
+                                </div>
+                                <div class="icon-text">
+                                    03
+                                </div>
+                            </div>
+                        </div>
+                        <div class="industry-item">
+                            <div class="industry-title">Chemical <br/> Industry</div>
+                            <div class="industry-text">
+                                <p>We are providing different services in this sector.</p>
+                                <a href="" class="readMore-btn">Read More</a>
+                            </div>
+                            <div class="industry-icon-box">
+                                <div class="icon-box">
+                                    <img src="assets/img/industry-icon/4.png" alt="">
+                                </div>
+                                <div class="icon-text">
+                                    04
+                                </div>
+                            </div>
+                        </div>
+                        <div class="industry-item">
+                            <div class="industry-title">Steal <br/> Industry</div>
+                            <div class="industry-text">
+                                <p>We are providing different services in this sector.</p>
+                                <a href="" class="readMore-btn">Read More</a>
+                            </div>
+                            <div class="industry-icon-box">
+                                <div class="icon-box">
+                                    <img src="assets/img/industry-icon/6.png" alt="">
+                                </div>
+                                <div class="icon-text">
+                                    05
+                                </div>
+                            </div>
+                        </div>
+                        <div class="industry-item">
+                            <div class="industry-title">Pharmaceutical <br/> Industry</div>
+                            <div class="industry-text">
+                                <p>We are providing different services in this sector.</p>
+                                <a href="" class="readMore-btn">Read More</a>
+                            </div>
+                            <div class="industry-icon-box">
+                                <div class="icon-box">
+                                    <img src="assets/img/industry-icon/6.png" alt="">
+                                </div>
+                                <div class="icon-text">
+                                    06
+                                </div>
+                            </div>
+                        </div>
+                        <div class="industry-item">
+                            <div class="industry-title">Hospital <br/> Industry</div>
+                            <div class="industry-text">
+                                <p>We are providing different services in this sector.</p>
+                                <a href="" class="readMore-btn">Read More</a>
+                            </div>
+                            <div class="industry-icon-box">
+                                <div class="icon-box">
+                                    <img src="assets/img/industry-icon/6.png" alt="">
+                                </div>
+                                <div class="icon-text">
+                                    07
+                                </div>
+                            </div>
+                        </div>
+                        <div class="industry-item">
+                            <div class="industry-title">Paper <br/> Industry</div>
+                            <div class="industry-text">
+                                <p>We are providing different services in this sector.</p>
+                                <a href="" class="readMore-btn">Read More</a>
+                            </div>
+                            <div class="industry-icon-box">
+                                <div class="icon-box">
+                                    <img src="assets/img/industry-icon/6.png" alt="">
+                                </div>
+                                <div class="icon-text">
+                                    08
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="call-to-action-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="call-to-action-content">
+                        <div class="call-to-action-text">
+                            <div class="h4">Need a high quality constructor for your project?</div>
+                            <a href="#" class="theme-btn btn-md">Get a quote</a>
+                        </div>
+                        <div class="call-to-action-number">
+                            <div class="h5 mb-0">Call us: (+00)888.666.88</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="faq-area py-100 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-title text-center">
+                        <span>Faq</span>
+                        <div class="h2">Always reliable and affordable prices</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-lg-6">
+                    <div class="accordion" id="faqV">
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true">
+                                    Our company mission 
+                                </button>
+                            </div>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqV">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem laudantium, dolore fuga doloremque adipisci voluptatem voluptate doloribus, accusamus ut iste laboriosam vitae itaque natus unde perferendis suscipit
+                                        nulla tempora eius cupiditate ullam aspernatur. Cum laboriosam explicabo doloremque, facilis dicta provident possimus a obcaecati alias asperiores, eos beatae nisi consectetur quam.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"> 
+                                    Creative and powerful 
+                                </button>
+                            </div>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqV">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem laudantium, dolore fuga doloremque adipisci voluptatem voluptate doloribus, accusamus ut iste laboriosam vitae itaque natus unde perferendis suscipit
+                                        nulla tempora eius cupiditate ullam aspernatur. Cum laboriosam explicabo doloremque, facilis dicta provident possimus a obcaecati alias asperiores, eos beatae nisi consectetur quam.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false">
+                                    Honest and dependable
+                                </button>
+                            </div>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqV">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem laudantium, dolore fuga doloremque adipisci voluptatem voluptate doloribus, accusamus ut iste laboriosam vitae itaque natus unde perferendis suscipit
+                                        nulla tempora eius cupiditate ullam aspernatur. Cum laboriosam explicabo doloremque, facilis dicta provident possimus a obcaecati alias asperiores, eos beatae nisi consectetur quam.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="faq-content">
+                        <div class="faq-strength">
+                            <img src="assets/img/faq-icon_2.png" alt="">
+                            <div class="faq-strength-text">
+                                <div class="h5">Advanced Technology</div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, aperiam consequuntur dolore</p>
+                            </div>
+                        </div>
+                        <div class="faq-strength">
+                            <img src="assets/img/faq-icon_1.png" alt="">
+                            <div class="faq-strength-text">
+                                <div class="h5">Expert Team</div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, aperiam consequuntur dolore</p>
+                            </div>
+                        </div>
+                        <div class="faq-strength">
+                            <img src="assets/img/faq-icon_3.png" alt="">
+                            <div class="faq-strength-text">
+                                <div class="h5">On Time Delivery</div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, aperiam consequuntur dolore</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-content">
+                            <div class="footer-item">
+                                <a href="#" class="footer-logo">
+                                    <img src="assets/img/logo.png" alt="">
+                                </a>
+                                <p>Lorem Ipsum is simply dummy text of the printing and type-setting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                                <ul class="social">
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-item">
+                                <div class="h5 title">Pages</div>
+                                <ul class="itemList">
+                                    <li>
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">The Company</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Products</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Resources</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">News</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-item">
+                                <div class="h5 title">industry</div>
+                                <ul class="itemList">
+                                    <li>
+                                        <a href="#">Textile</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Food / Agro</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Chemical</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Steal</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Pharma / Hospital</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Paper</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-item">
+                                <div class="h5 title">INFORMATION</div>
+                                <ul class="information-list">
+                                    <li><i class="fa-solid fa-location-dot"></i> Fiot Fashion Demo Store Demo Store India-3654123</li>
+                                    <li><i class="fa-solid fa-phone"></i> Call Us: 123-456-7898</li>
+                                    <li><i class="fa-solid fa-envelope"></i> Email Us: Support@test.com</li>
+                                    <li><i class="fa-solid fa-fax"></i> Fax: 123456</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright-content">
+                            <div class="copyright">
+                                <p>2021 - 22 Copy Right by Powered by</p>
+                            </div>
+                            <ul class="footer-policy">
+                                <li><a href="#">Terms & Condition</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/min.js"></script>
+
+
+</body>
+
+</html>
