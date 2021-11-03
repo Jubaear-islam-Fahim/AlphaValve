@@ -64,6 +64,29 @@
         fixedContentPos: false,
     });
 
+    $('.energy-saving-slid').owlCarousel({
+        loop: true,
+        margin: 30,
+        autoplay: false,
+        responsiveClass: true,
+        smartSpeed: 1200,
+        autoplayTimeout: 5000,
+        animateOut: 'fadeOut',
+        dots: false,
+        nav: true,
+        navText: ['<i class="fa-solid fa-angles-left"></i>', '<i class="fa-solid fa-angles-right"></i>'],
+        responsive: {
+            0: {
+                items: 1,
+            },
+            600: {
+                items: 3,
+            },
+            1000: {
+                items: 4,
+            }
+        }
+    });
 
 
 })(jQuery);

@@ -9,6 +9,7 @@
 /* Reset */
 
 @import url("../css/reset.css");
+
 :root {
     --white-color: #FFFFFF;
     --primary-color: #E56035;
@@ -119,9 +120,11 @@ a:hover {
     .phone-block {
         display: block;
     }
+
     .desktop-block {
         display: none !important;
     }
+
     .protfolio-container {
         grid-template-columns: 1fr;
     }
@@ -131,12 +134,12 @@ a:hover {
 /* Nav */
 
 .navArea {
-    position: absolute;
+    /* position: absolute;
     width: 100%;
-    top: 0;
+    top: 0; */
     z-index: 10;
     color: var(--block-color);
-    padding: 25px 0;
+    padding: 12px 0;
 }
 
 .navArea ul li .nav-link {
@@ -515,6 +518,139 @@ a:hover {
 }
 
 
+/* Energy Saving Valve */
+
+.energy-saving-slid {}
+
+.energy-item {
+    background: linear-gradient(to right, rgba(252, 252, 252, 1) 0%, rgba(244, 244, 244, 1) 100%);
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    height: 350px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.energy-img {
+    width: 180px;
+    height: 180px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.energy-item:hover img {
+    transform: scale(1.1);
+}
+
+.energy-item img {
+    width: 100% !important;
+    transition: all .3s linear;
+}
+
+.energy-item .h5 {
+    color: var(--primary-color);
+}
+
+.energy-products-list {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.energy-products-list .nav-link {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    background: no-repeat;
+    font-weight: 600;
+    transition: all .2s;
+}
+
+.energy-products-list .nav-link:hover,
+.energy-products-list .nav-link.active {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.energy-saving-slid .owl-nav {
+    position: absolute;
+    margin: 0;
+    right: 0;
+    top: -2.4cm;
+}
+
+.energy-saving-slid .owl-nav [class*=owl-] {
+    border: 2px solid var(--primary-color) !important;
+    color: var(--primary-color) !important;
+    border-radius: 0 !important;
+}
+
+.energy-saving-slid .owl-nav [class*=owl-] {
+    border: 2px solid var(--primary-color) !important;
+    color: var(--primary-color) !important;
+    border-radius: 0 !important;
+}
+
+.energy-saving-slid .owl-nav [class*="owl-"]:hover {
+    background: var(--primary-color);
+    color: var(--white-color) !important;
+}
+
+
+/* Inner Banner */
+.inner-banner-area {
+    background: url(../img/inner-bg.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.inner-banner-area::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.inner-banner-content {}
+
+.inner-banner-content .h1 {
+    color: var(--white-color);
+}
+
+.inner-banner-content ul {}
+
+.inner-banner-content ul li {
+    display: inline-block;
+}
+
+.inner-banner-content ul li:first-child:before {
+    display: none;
+}
+
+.inner-banner-content ul li::before {
+    content: '/';
+    color: var(--white-color);
+    padding: 0 15px 0 10px;
+}
+
+.inner-banner-content ul li a {
+    color: var(--white-color);
+}
+
 /* Footer */
 
 .footer-area {
@@ -578,7 +714,14 @@ a:hover {
 
 .itemList li {}
 
-.itemList li a {}
+.itemList li a {
+    display: block;
+    transition: all .3s;
+}
+
+.itemList li a:hover {
+    color: var(--primary-color);
+}
 
 .information-list {
     display: grid;
