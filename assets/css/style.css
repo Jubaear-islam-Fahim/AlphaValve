@@ -605,7 +605,7 @@ a:hover {
 .inner-banner-area {
     background: url(../img/inner-bg.jpg) no-repeat center;
     background-size: cover;
-    height: 500px;
+    height: 400px;
     display: grid;
     align-items: center;
     justify-content: center;
