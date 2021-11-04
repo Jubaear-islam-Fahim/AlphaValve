@@ -233,7 +233,7 @@ a.align-self-center.bar-icons {
         border: 0;
         min-width: 240px;
         border-radius: 0;
-        box-shadow: 0px 2px 5px -1px rgba(210,210,210,0.72);
+        box-shadow: 0px 2px 5px -1px rgba(210, 210, 210, 0.72);
     }
 
     .navbar .dropdown-menu.fade-down {
@@ -255,16 +255,20 @@ a.align-self-center.bar-icons {
     }
 }
 
-.navbar .dropdown-item{
+.navbar .dropdown-item {
     font-size: 18px;
 }
 
-.navbar .dropdown-item.active, 
+.navbar .dropdown-item.active,
 .navbar .dropdown-item:active,
 .navbar .dropdown-item:focus,
 .navbar .dropdown-item:hover {
     color: var(--primary-color);
     background: none;
+}
+
+.offcanvas-start .active {
+    color: var(--primary-color);
 }
 
 /* Banner */
@@ -578,8 +582,6 @@ a.align-self-center.bar-icons {
 /* Call to Action */
 
 .call-to-action-content {
-    display: grid;
-    grid-template-columns: 1fr 340px;
     background-color: var(--block-color);
     color: var(--white-color);
 }
@@ -865,7 +867,7 @@ a.align-self-center.bar-icons {
     width: 100%;
 }
 
-.products-area  #productsFaq {
+.products-area #productsFaq {
     display: grid;
     gap: 15px;
 }
@@ -897,10 +899,185 @@ a.align-self-center.bar-icons {
     background: none;
     margin-top: -7px;
 }
+
 .products-area .accordion-button:not(.collapsed)::after {
     content: "\f068";
     background: none;
     transform: rotate(0);
+}
+
+/* cities */
+.citie-section {}
+
+.citie-item {
+    position: relative;
+    margin-top: 25px;
+}
+
+.citie-item img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.citie-name {
+    bottom: 5px;
+    left: 7px;
+    right: 7px;
+    width: auto;
+    min-height: 45px;
+    font-size: 18px;
+    line-height: 22px;
+    transform: scale(1);
+    color: #fff;
+    background-color: rgba(229, 97, 53, 0.6);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-bottom: 0;
+    transition: all .3s linear;
+}
+
+.hover-citie {
+    top: 50%;
+    left: 50%;
+    width: auto;
+    font-size: 18px;
+    line-height: 22px;
+    transform: translate(-50%, -50%) scale(0);
+    color: #fff;
+    background-color: rgba(229, 97, 53, 0.6);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-bottom: 0;
+    height: 100%;
+    width: 100%;
+    transition: all .3s linear;
+    text-align: center;
+    padding: 10px;
+}
+
+.citie-item:hover .citie-name {
+    transform: scale(0);
+}
+
+.citie-item:hover .hover-citie {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.citie-item .h5 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.hover-citie address {}
+
+.citie-item.active .hover-citie {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.citie-item.active address {
+    font-size: 22px;
+    text-transform: capitalize;
+    line-height: 1.5;
+}
+
+
+/* Contact */
+.contact-area {
+    background: url(../img/contact-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.form-content {
+    display: grid;
+    gap: 20px;
+}
+
+.form-content select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-color: #fff;
+    background-position-x: 98%;
+    background-position-y: 12px;
+    background-repeat: no-repeat;
+    border-radius: 0;
+}
+
+.form-content select,
+.form-content input,
+.form-content textarea {
+    width: 100%;
+    border: 0;
+    height: 50px;
+    outline: none !important;
+    padding: 0 15px;
+    color: var(--block-color);
+}
+
+.form-content input::placeholder,
+.form-content textarea::placeholder {
+    color: var(--block-color);
+}
+
+.form-content input {}
+
+.form-content textarea {
+    height: 150px;
+    padding: 15px;
+}
+
+.contact-info {}
+
+.contact-info-content {
+    background: url(../img/map-bg.png) no-repeat center;
+    background-color: #00173c;
+    padding: 40px;
+    display: grid;
+    gap: 35px;
+}
+
+.contact-info-content li {}
+
+.contact-info-content li .h5 {
+    color: var(--primary-color);
+    position: relative;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.contact-info-content li .h5::after {
+    content: '\f3bf';
+    font-family: "Font Awesome 6 free";
+    position: absolute;
+    bottom: -33px;
+    left: 0;
+    transform: rotate(90deg);
+}
+
+.contact-info-content li p {
+    color: var(--white-color);
+    padding-left: 25px;
+}
+
+/* Modal Get A Quote */
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 650px;
+    }
+}
+
+.get-quot .form-content select,
+.get-quot .form-content input,
+.get-quot .form-content textarea { 
+    border: 1px solid #e7e7e7;
 }
 
 /* Footer */
