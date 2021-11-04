@@ -255,6 +255,10 @@ a.align-self-center.bar-icons {
     }
 }
 
+.navbar .dropdown-item{
+    font-size: 18px;
+}
+
 .navbar .dropdown-item.active, 
 .navbar .dropdown-item:active,
 .navbar .dropdown-item:focus,
@@ -861,8 +865,18 @@ a.align-self-center.bar-icons {
     width: 100%;
 }
 
+.products-area  #productsFaq {
+    display: grid;
+    gap: 15px;
+}
+
 .products-area .accordion-button {
     text-transform: capitalize;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .products-area .accordion-button:not(.collapsed) {
@@ -871,9 +885,22 @@ a.align-self-center.bar-icons {
     box-shadow: none;
 }
 
-.accordion-item {
+.products-area .accordion-item {
     background-color: #fff;
     border: 1px solid var(--primary-color);
+}
+
+.products-area .accordion-button::after {
+    content: "\2b";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 700;
+    background: none;
+    margin-top: -7px;
+}
+.products-area .accordion-button:not(.collapsed)::after {
+    content: "\f068";
+    background: none;
+    transform: rotate(0);
 }
 
 /* Footer */
