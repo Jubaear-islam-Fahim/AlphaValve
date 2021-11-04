@@ -1,0 +1,1810 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Alpha Valve</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navArea">
+        <div class="container">
+            <div class="nabLogo d-flex gap-3">
+                <a class="navbar-brand align-self-center" href="index.html">
+                    <img src="assets/img/logo.png" alt="">
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                        <img src="assets/img/logo.png" alt="">
+                    </h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav align-self-center justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link " href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="" data-bs-toggle="dropdown">Products</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item active" href="Steam-Condensate.html"> Steam & Condensate</a></li> 
+                                <li><a class="dropdown-item" href="water-air.html"> Water & Air</a></li> 
+                                <li><a class="dropdown-item" href="fire.html"> Fire </a></li> 
+                                <li><a class="dropdown-item" href="hvac.html"> HVAC</a></li> 
+                            </ul>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#">Resources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="nabRight align-self-center d-flex gap-3">
+                        <div class="dropdown search-dropdown">
+                            <button class="searchIcon" type="button" id="searchDropdown" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end searchBox" aria-labelledby="searchDropdown">
+                                <form action="/" class="d-flex">
+                                    <input class="search-input " name="search" placeholder="Search "
+                                        aria-label="Search ">
+                                    <button class="search-btn " type="submit"><i
+                                            class="fa-solid fa-magnifying-glass"></i> </button>
+                                </form>
+                            </div>
+                        </div>
+                        <a class="align-self-center bar-icons" data-bs-toggle="offcanvas" href="#offcanvasExample"
+                            role="button" aria-controls="offcanvasExample">
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                <img src="assets/img/logo.png" alt="">
+            </h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="navCatagories">
+                <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">The Company</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="inner-banner-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="inner-banner-content">
+                        <div class="h1">Steam & Condensate</div>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#" class="active">Steam & Condensate</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="products-area py-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="accordion" id="productsFaq">
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#products1" aria-expanded="true">
+                                    Bellow Sealed Stop Valve
+                                </button>
+                            </div>
+                            <div id="products1" class="accordion-collapse collapse show" data-bs-parent="#productsFaq">
+                                <div class="accordion-body">
+                                    <div class="product-content">
+                                        <div class="product-item">
+                                            <div class="tab-content product-img">
+                                                <div class="tab-pane active" id="One" role="tabpanel"
+                                                    aria-labelledby="One-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Two" role="tabpanel"
+                                                    aria-labelledby="Two-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Three" role="tabpanel"
+                                                    aria-labelledby="Three-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="four" role="tabpanel"
+                                                    aria-labelledby="four-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                            </div>
+                                            <ul class="nav" id="ProductTab" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link active" id="One-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#One" type="button" role="tab"
+                                                        aria-controls="One" aria-selected="true">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Two-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Two" type="button" role="tab"
+                                                        aria-controls="Two" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Three-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Three" type="button" role="tab"
+                                                        aria-controls="Three" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="product-item">
+                                            <div class="products-content">
+                                                <div class="h4 ">DT40/2</div>
+                                                <p>The thermodynamic DT40/2 disc steam traps are compact and
+                                                    lightweight-easy to install
+                                                    traps, excellent for high-pressure systems, including steam tracing
+                                                    applications.
+                                                    The insulation cover ensures consistent operation and makes it
+                                                    particularly suitable
+                                                    for those applications where the weather conditions may affect the
+                                                    normal operation.
+                                                </p>
+                                            </div>
+                                            <div class="download-Documents">
+                                                <a href="#" class="theme-btn btn-md">Documents</a>
+                                                <a href="#" class="theme-btn btn-md secondary-color">Send Email</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-item">
+                                            <ul class="product-sp">
+                                                <li>
+                                                    <div class="h6">MATERIAL</div>
+                                                    <p>Stainless steel</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">SIZES</div>
+                                                    <p>3/8” to 1” – DN 10 to DN 25 </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">CONNECTIONS</div>
+                                                    <p>
+                                                        Female threaded ISO 7 Rp or NPT
+                                                        Flanged EN PN 40
+                                                        Flanged ASME Class 150 or 300
+                                                        Socket weld (SW) ASME B16.11
+                                                        Butt weld (BW) ASME B16.25 on request
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING PRESSURE</div>
+                                                    <p>40 bar</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING TEMPERATURE</div>
+                                                    <p>300 ºC</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">FLOW RATE CAPACITY</div>
+                                                    <p>Up to 740 kg/h</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product-content pt-5">
+                                        <div class="product-item">
+                                            <div class="tab-content product-img">
+                                                <div class="tab-pane active" id="One" role="tabpanel"
+                                                    aria-labelledby="One-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Two" role="tabpanel"
+                                                    aria-labelledby="Two-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Three" role="tabpanel"
+                                                    aria-labelledby="Three-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="four" role="tabpanel"
+                                                    aria-labelledby="four-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                            </div>
+                                            <ul class="nav" id="ProductTab" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link active" id="One-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#One" type="button" role="tab"
+                                                        aria-controls="One" aria-selected="true">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Two-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Two" type="button" role="tab"
+                                                        aria-controls="Two" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Three-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Three" type="button" role="tab"
+                                                        aria-controls="Three" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="product-item">
+                                            <div class="products-content">
+                                                <div class="h4 ">DT40/2</div>
+                                                <p>The thermodynamic DT40/2 disc steam traps are compact and
+                                                    lightweight-easy to install
+                                                    traps, excellent for high-pressure systems, including steam tracing
+                                                    applications.
+                                                    The insulation cover ensures consistent operation and makes it
+                                                    particularly suitable
+                                                    for those applications where the weather conditions may affect the
+                                                    normal operation.
+                                                </p>
+                                            </div>
+                                            <div class="download-Documents">
+                                                <a href="#" class="theme-btn btn-md">Documents</a>
+                                                <a href="#" class="theme-btn btn-md secondary-color">Send Email</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-item">
+                                            <ul class="product-sp">
+                                                <li>
+                                                    <div class="h6">MATERIAL</div>
+                                                    <p>Stainless steel</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">SIZES</div>
+                                                    <p>3/8” to 1” – DN 10 to DN 25 </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">CONNECTIONS</div>
+                                                    <p>
+                                                        Female threaded ISO 7 Rp or NPT
+                                                        Flanged EN PN 40
+                                                        Flanged ASME Class 150 or 300
+                                                        Socket weld (SW) ASME B16.11
+                                                        Butt weld (BW) ASME B16.25 on request
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING PRESSURE</div>
+                                                    <p>40 bar</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING TEMPERATURE</div>
+                                                    <p>300 ºC</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">FLOW RATE CAPACITY</div>
+                                                    <p>Up to 740 kg/h</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product-content pt-5">
+                                        <div class="product-item">
+                                            <div class="tab-content product-img">
+                                                <div class="tab-pane active" id="One" role="tabpanel"
+                                                    aria-labelledby="One-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Two" role="tabpanel"
+                                                    aria-labelledby="Two-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Three" role="tabpanel"
+                                                    aria-labelledby="Three-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="four" role="tabpanel"
+                                                    aria-labelledby="four-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                            </div>
+                                            <ul class="nav" id="ProductTab" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link active" id="One-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#One" type="button" role="tab"
+                                                        aria-controls="One" aria-selected="true">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Two-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Two" type="button" role="tab"
+                                                        aria-controls="Two" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Three-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Three" type="button" role="tab"
+                                                        aria-controls="Three" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="product-item">
+                                            <div class="products-content">
+                                                <div class="h4 ">DT40/2</div>
+                                                <p>The thermodynamic DT40/2 disc steam traps are compact and
+                                                    lightweight-easy to install
+                                                    traps, excellent for high-pressure systems, including steam tracing
+                                                    applications.
+                                                    The insulation cover ensures consistent operation and makes it
+                                                    particularly suitable
+                                                    for those applications where the weather conditions may affect the
+                                                    normal operation.
+                                                </p>
+                                            </div>
+                                            <div class="download-Documents">
+                                                <a href="#" class="theme-btn btn-md">Documents</a>
+                                                <a href="#" class="theme-btn btn-md secondary-color">Send Email</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-item">
+                                            <ul class="product-sp">
+                                                <li>
+                                                    <div class="h6">MATERIAL</div>
+                                                    <p>Stainless steel</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">SIZES</div>
+                                                    <p>3/8” to 1” – DN 10 to DN 25 </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">CONNECTIONS</div>
+                                                    <p>
+                                                        Female threaded ISO 7 Rp or NPT
+                                                        Flanged EN PN 40
+                                                        Flanged ASME Class 150 or 300
+                                                        Socket weld (SW) ASME B16.11
+                                                        Butt weld (BW) ASME B16.25 on request
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING PRESSURE</div>
+                                                    <p>40 bar</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING TEMPERATURE</div>
+                                                    <p>300 ºC</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">FLOW RATE CAPACITY</div>
+                                                    <p>Up to 740 kg/h</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#products2" aria-expanded="false">
+                                    Strainer
+                                </button>
+                            </div>
+                            <div id="products2" class="accordion-collapse collapse" data-bs-parent="#productsFaq">
+                                <div class="accordion-body">
+                                    <div class="product-content">
+                                        <div class="product-item">
+                                            <div class="tab-content product-img">
+                                                <div class="tab-pane active" id="One" role="tabpanel"
+                                                    aria-labelledby="One-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Two" role="tabpanel"
+                                                    aria-labelledby="Two-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Three" role="tabpanel"
+                                                    aria-labelledby="Three-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="four" role="tabpanel"
+                                                    aria-labelledby="four-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                            </div>
+                                            <ul class="nav" id="ProductTab" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link active" id="One-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#One" type="button" role="tab"
+                                                        aria-controls="One" aria-selected="true">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Two-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Two" type="button" role="tab"
+                                                        aria-controls="Two" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Three-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Three" type="button" role="tab"
+                                                        aria-controls="Three" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="product-item">
+                                            <div class="products-content">
+                                                <div class="h4 ">DT40/2</div>
+                                                <p>The thermodynamic DT40/2 disc steam traps are compact and
+                                                    lightweight-easy to install
+                                                    traps, excellent for high-pressure systems, including steam tracing
+                                                    applications.
+                                                    The insulation cover ensures consistent operation and makes it
+                                                    particularly suitable
+                                                    for those applications where the weather conditions may affect the
+                                                    normal operation.
+                                                </p>
+                                            </div>
+                                            <div class="download-Documents">
+                                                <a href="#" class="theme-btn btn-md">Documents</a>
+                                                <a href="#" class="theme-btn btn-md secondary-color">Send Email</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-item">
+                                            <ul class="product-sp">
+                                                <li>
+                                                    <div class="h6">MATERIAL</div>
+                                                    <p>Stainless steel</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">SIZES</div>
+                                                    <p>3/8” to 1” – DN 10 to DN 25 </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">CONNECTIONS</div>
+                                                    <p>
+                                                        Female threaded ISO 7 Rp or NPT
+                                                        Flanged EN PN 40
+                                                        Flanged ASME Class 150 or 300
+                                                        Socket weld (SW) ASME B16.11
+                                                        Butt weld (BW) ASME B16.25 on request
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING PRESSURE</div>
+                                                    <p>40 bar</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING TEMPERATURE</div>
+                                                    <p>300 ºC</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">FLOW RATE CAPACITY</div>
+                                                    <p>Up to 740 kg/h</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#products3" aria-expanded="false">
+                                    Non Return Valve
+                                </button>
+                            </div>
+                            <div id="products3" class="accordion-collapse collapse" data-bs-parent="#productsFaq">
+                                <div class="accordion-body">
+                                    <div class="product-content">
+                                        <div class="product-item">
+                                            <div class="tab-content product-img">
+                                                <div class="tab-pane active" id="One" role="tabpanel"
+                                                    aria-labelledby="One-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Two" role="tabpanel"
+                                                    aria-labelledby="Two-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Three" role="tabpanel"
+                                                    aria-labelledby="Three-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="four" role="tabpanel"
+                                                    aria-labelledby="four-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                            </div>
+                                            <ul class="nav" id="ProductTab" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link active" id="One-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#One" type="button" role="tab"
+                                                        aria-controls="One" aria-selected="true">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Two-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Two" type="button" role="tab"
+                                                        aria-controls="Two" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Three-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Three" type="button" role="tab"
+                                                        aria-controls="Three" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="product-item">
+                                            <div class="products-content">
+                                                <div class="h4 ">DT40/2</div>
+                                                <p>The thermodynamic DT40/2 disc steam traps are compact and
+                                                    lightweight-easy to install
+                                                    traps, excellent for high-pressure systems, including steam tracing
+                                                    applications.
+                                                    The insulation cover ensures consistent operation and makes it
+                                                    particularly suitable
+                                                    for those applications where the weather conditions may affect the
+                                                    normal operation.
+                                                </p>
+                                            </div>
+                                            <div class="download-Documents">
+                                                <a href="#" class="theme-btn btn-md">Documents</a>
+                                                <a href="#" class="theme-btn btn-md secondary-color">Send Email</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-item">
+                                            <ul class="product-sp">
+                                                <li>
+                                                    <div class="h6">MATERIAL</div>
+                                                    <p>Stainless steel</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">SIZES</div>
+                                                    <p>3/8” to 1” – DN 10 to DN 25 </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">CONNECTIONS</div>
+                                                    <p>
+                                                        Female threaded ISO 7 Rp or NPT
+                                                        Flanged EN PN 40
+                                                        Flanged ASME Class 150 or 300
+                                                        Socket weld (SW) ASME B16.11
+                                                        Butt weld (BW) ASME B16.25 on request
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING PRESSURE</div>
+                                                    <p>40 bar</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING TEMPERATURE</div>
+                                                    <p>300 ºC</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">FLOW RATE CAPACITY</div>
+                                                    <p>Up to 740 kg/h</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#products4" aria-expanded="false">
+                                    Safety Valve
+                                </button>
+                            </div>
+                            <div id="products4" class="accordion-collapse collapse" data-bs-parent="#productsFaq">
+                                <div class="accordion-body">
+                                    <div class="product-content">
+                                        <div class="product-item">
+                                            <div class="tab-content product-img">
+                                                <div class="tab-pane active" id="One" role="tabpanel"
+                                                    aria-labelledby="One-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Two" role="tabpanel"
+                                                    aria-labelledby="Two-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Three" role="tabpanel"
+                                                    aria-labelledby="Three-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="four" role="tabpanel"
+                                                    aria-labelledby="four-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                            </div>
+                                            <ul class="nav" id="ProductTab" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link active" id="One-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#One" type="button" role="tab"
+                                                        aria-controls="One" aria-selected="true">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Two-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Two" type="button" role="tab"
+                                                        aria-controls="Two" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Three-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Three" type="button" role="tab"
+                                                        aria-controls="Three" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="product-item">
+                                            <div class="products-content">
+                                                <div class="h4 ">DT40/2</div>
+                                                <p>The thermodynamic DT40/2 disc steam traps are compact and
+                                                    lightweight-easy to install
+                                                    traps, excellent for high-pressure systems, including steam tracing
+                                                    applications.
+                                                    The insulation cover ensures consistent operation and makes it
+                                                    particularly suitable
+                                                    for those applications where the weather conditions may affect the
+                                                    normal operation.
+                                                </p>
+                                            </div>
+                                            <div class="download-Documents">
+                                                <a href="#" class="theme-btn btn-md">Documents</a>
+                                                <a href="#" class="theme-btn btn-md secondary-color">Send Email</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-item">
+                                            <ul class="product-sp">
+                                                <li>
+                                                    <div class="h6">MATERIAL</div>
+                                                    <p>Stainless steel</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">SIZES</div>
+                                                    <p>3/8” to 1” – DN 10 to DN 25 </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">CONNECTIONS</div>
+                                                    <p>
+                                                        Female threaded ISO 7 Rp or NPT
+                                                        Flanged EN PN 40
+                                                        Flanged ASME Class 150 or 300
+                                                        Socket weld (SW) ASME B16.11
+                                                        Butt weld (BW) ASME B16.25 on request
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING PRESSURE</div>
+                                                    <p>40 bar</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING TEMPERATURE</div>
+                                                    <p>300 ºC</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">FLOW RATE CAPACITY</div>
+                                                    <p>Up to 740 kg/h</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#products5" aria-expanded="false">
+                                    Thermo dynamic Steam Trap
+                                </button>
+                            </div>
+                            <div id="products5" class="accordion-collapse collapse" data-bs-parent="#productsFaq">
+                                <div class="accordion-body">
+                                    <div class="product-content">
+                                        <div class="product-item">
+                                            <div class="tab-content product-img">
+                                                <div class="tab-pane active" id="One" role="tabpanel"
+                                                    aria-labelledby="One-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Two" role="tabpanel"
+                                                    aria-labelledby="Two-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Three" role="tabpanel"
+                                                    aria-labelledby="Three-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="four" role="tabpanel"
+                                                    aria-labelledby="four-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                            </div>
+                                            <ul class="nav" id="ProductTab" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link active" id="One-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#One" type="button" role="tab"
+                                                        aria-controls="One" aria-selected="true">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Two-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Two" type="button" role="tab"
+                                                        aria-controls="Two" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Three-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Three" type="button" role="tab"
+                                                        aria-controls="Three" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="product-item">
+                                            <div class="products-content">
+                                                <div class="h4 ">DT40/2</div>
+                                                <p>The thermodynamic DT40/2 disc steam traps are compact and
+                                                    lightweight-easy to install
+                                                    traps, excellent for high-pressure systems, including steam tracing
+                                                    applications.
+                                                    The insulation cover ensures consistent operation and makes it
+                                                    particularly suitable
+                                                    for those applications where the weather conditions may affect the
+                                                    normal operation.
+                                                </p>
+                                            </div>
+                                            <div class="download-Documents">
+                                                <a href="#" class="theme-btn btn-md">Documents</a>
+                                                <a href="#" class="theme-btn btn-md secondary-color">Send Email</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-item">
+                                            <ul class="product-sp">
+                                                <li>
+                                                    <div class="h6">MATERIAL</div>
+                                                    <p>Stainless steel</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">SIZES</div>
+                                                    <p>3/8” to 1” – DN 10 to DN 25 </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">CONNECTIONS</div>
+                                                    <p>
+                                                        Female threaded ISO 7 Rp or NPT
+                                                        Flanged EN PN 40
+                                                        Flanged ASME Class 150 or 300
+                                                        Socket weld (SW) ASME B16.11
+                                                        Butt weld (BW) ASME B16.25 on request
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING PRESSURE</div>
+                                                    <p>40 bar</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING TEMPERATURE</div>
+                                                    <p>300 ºC</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">FLOW RATE CAPACITY</div>
+                                                    <p>Up to 740 kg/h</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#products6" aria-expanded="false">
+                                    Float Type Steam Trap
+                                </button>
+                            </div>
+                            <div id="products6" class="accordion-collapse collapse" data-bs-parent="#productsFaq">
+                                <div class="accordion-body">
+                                    <div class="product-content">
+                                        <div class="product-item">
+                                            <div class="tab-content product-img">
+                                                <div class="tab-pane active" id="One" role="tabpanel"
+                                                    aria-labelledby="One-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Two" role="tabpanel"
+                                                    aria-labelledby="Two-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Three" role="tabpanel"
+                                                    aria-labelledby="Three-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="four" role="tabpanel"
+                                                    aria-labelledby="four-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                            </div>
+                                            <ul class="nav" id="ProductTab" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link active" id="One-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#One" type="button" role="tab"
+                                                        aria-controls="One" aria-selected="true">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Two-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Two" type="button" role="tab"
+                                                        aria-controls="Two" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Three-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Three" type="button" role="tab"
+                                                        aria-controls="Three" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="product-item">
+                                            <div class="products-content">
+                                                <div class="h4 ">DT40/2</div>
+                                                <p>The thermodynamic DT40/2 disc steam traps are compact and
+                                                    lightweight-easy to install
+                                                    traps, excellent for high-pressure systems, including steam tracing
+                                                    applications.
+                                                    The insulation cover ensures consistent operation and makes it
+                                                    particularly suitable
+                                                    for those applications where the weather conditions may affect the
+                                                    normal operation.
+                                                </p>
+                                            </div>
+                                            <div class="download-Documents">
+                                                <a href="#" class="theme-btn btn-md">Documents</a>
+                                                <a href="#" class="theme-btn btn-md secondary-color">Send Email</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-item">
+                                            <ul class="product-sp">
+                                                <li>
+                                                    <div class="h6">MATERIAL</div>
+                                                    <p>Stainless steel</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">SIZES</div>
+                                                    <p>3/8” to 1” – DN 10 to DN 25 </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">CONNECTIONS</div>
+                                                    <p>
+                                                        Female threaded ISO 7 Rp or NPT
+                                                        Flanged EN PN 40
+                                                        Flanged ASME Class 150 or 300
+                                                        Socket weld (SW) ASME B16.11
+                                                        Butt weld (BW) ASME B16.25 on request
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING PRESSURE</div>
+                                                    <p>40 bar</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING TEMPERATURE</div>
+                                                    <p>300 ºC</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">FLOW RATE CAPACITY</div>
+                                                    <p>Up to 740 kg/h</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#products7" aria-expanded="false">
+                                    Pressure Reducing Valve
+                                </button>
+                            </div>
+                            <div id="products7" class="accordion-collapse collapse" data-bs-parent="#productsFaq">
+                                <div class="accordion-body">
+                                    <div class="product-content">
+                                        <div class="product-item">
+                                            <div class="tab-content product-img">
+                                                <div class="tab-pane active" id="One" role="tabpanel"
+                                                    aria-labelledby="One-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Two" role="tabpanel"
+                                                    aria-labelledby="Two-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Three" role="tabpanel"
+                                                    aria-labelledby="Three-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="four" role="tabpanel"
+                                                    aria-labelledby="four-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                            </div>
+                                            <ul class="nav" id="ProductTab" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link active" id="One-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#One" type="button" role="tab"
+                                                        aria-controls="One" aria-selected="true">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Two-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Two" type="button" role="tab"
+                                                        aria-controls="Two" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Three-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Three" type="button" role="tab"
+                                                        aria-controls="Three" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="product-item">
+                                            <div class="products-content">
+                                                <div class="h4 ">DT40/2</div>
+                                                <p>The thermodynamic DT40/2 disc steam traps are compact and
+                                                    lightweight-easy to install
+                                                    traps, excellent for high-pressure systems, including steam tracing
+                                                    applications.
+                                                    The insulation cover ensures consistent operation and makes it
+                                                    particularly suitable
+                                                    for those applications where the weather conditions may affect the
+                                                    normal operation.
+                                                </p>
+                                            </div>
+                                            <div class="download-Documents">
+                                                <a href="#" class="theme-btn btn-md">Documents</a>
+                                                <a href="#" class="theme-btn btn-md secondary-color">Send Email</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-item">
+                                            <ul class="product-sp">
+                                                <li>
+                                                    <div class="h6">MATERIAL</div>
+                                                    <p>Stainless steel</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">SIZES</div>
+                                                    <p>3/8” to 1” – DN 10 to DN 25 </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">CONNECTIONS</div>
+                                                    <p>
+                                                        Female threaded ISO 7 Rp or NPT
+                                                        Flanged EN PN 40
+                                                        Flanged ASME Class 150 or 300
+                                                        Socket weld (SW) ASME B16.11
+                                                        Butt weld (BW) ASME B16.25 on request
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING PRESSURE</div>
+                                                    <p>40 bar</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING TEMPERATURE</div>
+                                                    <p>300 ºC</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">FLOW RATE CAPACITY</div>
+                                                    <p>Up to 740 kg/h</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#products8" aria-expanded="false">
+                                    Steam & Condensate Recovery System
+                                </button>
+                            </div>
+                            <div id="products8" class="accordion-collapse collapse" data-bs-parent="#productsFaq">
+                                <div class="accordion-body">
+                                    <div class="product-content">
+                                        <div class="product-item">
+                                            <div class="tab-content product-img">
+                                                <div class="tab-pane active" id="One" role="tabpanel"
+                                                    aria-labelledby="One-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Two" role="tabpanel"
+                                                    aria-labelledby="Two-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Three" role="tabpanel"
+                                                    aria-labelledby="Three-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="four" role="tabpanel"
+                                                    aria-labelledby="four-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                            </div>
+                                            <ul class="nav" id="ProductTab" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link active" id="One-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#One" type="button" role="tab"
+                                                        aria-controls="One" aria-selected="true">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Two-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Two" type="button" role="tab"
+                                                        aria-controls="Two" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Three-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Three" type="button" role="tab"
+                                                        aria-controls="Three" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="product-item">
+                                            <div class="products-content">
+                                                <div class="h4 ">DT40/2</div>
+                                                <p>The thermodynamic DT40/2 disc steam traps are compact and
+                                                    lightweight-easy to install
+                                                    traps, excellent for high-pressure systems, including steam tracing
+                                                    applications.
+                                                    The insulation cover ensures consistent operation and makes it
+                                                    particularly suitable
+                                                    for those applications where the weather conditions may affect the
+                                                    normal operation.
+                                                </p>
+                                            </div>
+                                            <div class="download-Documents">
+                                                <a href="#" class="theme-btn btn-md">Documents</a>
+                                                <a href="#" class="theme-btn btn-md secondary-color">Send Email</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-item">
+                                            <ul class="product-sp">
+                                                <li>
+                                                    <div class="h6">MATERIAL</div>
+                                                    <p>Stainless steel</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">SIZES</div>
+                                                    <p>3/8” to 1” – DN 10 to DN 25 </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">CONNECTIONS</div>
+                                                    <p>
+                                                        Female threaded ISO 7 Rp or NPT
+                                                        Flanged EN PN 40
+                                                        Flanged ASME Class 150 or 300
+                                                        Socket weld (SW) ASME B16.11
+                                                        Butt weld (BW) ASME B16.25 on request
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING PRESSURE</div>
+                                                    <p>40 bar</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING TEMPERATURE</div>
+                                                    <p>300 ºC</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">FLOW RATE CAPACITY</div>
+                                                    <p>Up to 740 kg/h</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#products9" aria-expanded="false">
+                                    Automatic Blow Down Control System
+                                </button>
+                            </div>
+                            <div id="products9" class="accordion-collapse collapse" data-bs-parent="#productsFaq">
+                                <div class="accordion-body">
+                                    <div class="product-content">
+                                        <div class="product-item">
+                                            <div class="tab-content product-img">
+                                                <div class="tab-pane active" id="One" role="tabpanel"
+                                                    aria-labelledby="One-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Two" role="tabpanel"
+                                                    aria-labelledby="Two-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Three" role="tabpanel"
+                                                    aria-labelledby="Three-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="four" role="tabpanel"
+                                                    aria-labelledby="four-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                            </div>
+                                            <ul class="nav" id="ProductTab" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link active" id="One-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#One" type="button" role="tab"
+                                                        aria-controls="One" aria-selected="true">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Two-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Two" type="button" role="tab"
+                                                        aria-controls="Two" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Three-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Three" type="button" role="tab"
+                                                        aria-controls="Three" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="product-item">
+                                            <div class="products-content">
+                                                <div class="h4 ">DT40/2</div>
+                                                <p>The thermodynamic DT40/2 disc steam traps are compact and
+                                                    lightweight-easy to install
+                                                    traps, excellent for high-pressure systems, including steam tracing
+                                                    applications.
+                                                    The insulation cover ensures consistent operation and makes it
+                                                    particularly suitable
+                                                    for those applications where the weather conditions may affect the
+                                                    normal operation.
+                                                </p>
+                                            </div>
+                                            <div class="download-Documents">
+                                                <a href="#" class="theme-btn btn-md">Documents</a>
+                                                <a href="#" class="theme-btn btn-md secondary-color">Send Email</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-item">
+                                            <ul class="product-sp">
+                                                <li>
+                                                    <div class="h6">MATERIAL</div>
+                                                    <p>Stainless steel</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">SIZES</div>
+                                                    <p>3/8” to 1” – DN 10 to DN 25 </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">CONNECTIONS</div>
+                                                    <p>
+                                                        Female threaded ISO 7 Rp or NPT
+                                                        Flanged EN PN 40
+                                                        Flanged ASME Class 150 or 300
+                                                        Socket weld (SW) ASME B16.11
+                                                        Butt weld (BW) ASME B16.25 on request
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING PRESSURE</div>
+                                                    <p>40 bar</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING TEMPERATURE</div>
+                                                    <p>300 ºC</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">FLOW RATE CAPACITY</div>
+                                                    <p>Up to 740 kg/h</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#products10" aria-expanded="false">
+                                    Steam Line Air vent
+                                </button>
+                            </div>
+                            <div id="products10" class="accordion-collapse collapse" data-bs-parent="#productsFaq">
+                                <div class="accordion-body">
+                                    <div class="product-content">
+                                        <div class="product-item">
+                                            <div class="tab-content product-img">
+                                                <div class="tab-pane active" id="One" role="tabpanel"
+                                                    aria-labelledby="One-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Two" role="tabpanel"
+                                                    aria-labelledby="Two-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Three" role="tabpanel"
+                                                    aria-labelledby="Three-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="four" role="tabpanel"
+                                                    aria-labelledby="four-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                            </div>
+                                            <ul class="nav" id="ProductTab" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link active" id="One-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#One" type="button" role="tab"
+                                                        aria-controls="One" aria-selected="true">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Two-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Two" type="button" role="tab"
+                                                        aria-controls="Two" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Three-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Three" type="button" role="tab"
+                                                        aria-controls="Three" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="product-item">
+                                            <div class="products-content">
+                                                <div class="h4 ">DT40/2</div>
+                                                <p>The thermodynamic DT40/2 disc steam traps are compact and
+                                                    lightweight-easy to install
+                                                    traps, excellent for high-pressure systems, including steam tracing
+                                                    applications.
+                                                    The insulation cover ensures consistent operation and makes it
+                                                    particularly suitable
+                                                    for those applications where the weather conditions may affect the
+                                                    normal operation.
+                                                </p>
+                                            </div>
+                                            <div class="download-Documents">
+                                                <a href="#" class="theme-btn btn-md">Documents</a>
+                                                <a href="#" class="theme-btn btn-md secondary-color">Send Email</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-item">
+                                            <ul class="product-sp">
+                                                <li>
+                                                    <div class="h6">MATERIAL</div>
+                                                    <p>Stainless steel</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">SIZES</div>
+                                                    <p>3/8” to 1” – DN 10 to DN 25 </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">CONNECTIONS</div>
+                                                    <p>
+                                                        Female threaded ISO 7 Rp or NPT
+                                                        Flanged EN PN 40
+                                                        Flanged ASME Class 150 or 300
+                                                        Socket weld (SW) ASME B16.11
+                                                        Butt weld (BW) ASME B16.25 on request
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING PRESSURE</div>
+                                                    <p>40 bar</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING TEMPERATURE</div>
+                                                    <p>300 ºC</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">FLOW RATE CAPACITY</div>
+                                                    <p>Up to 740 kg/h</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#products11" aria-expanded="false">
+                                    Steam line vacuum breaker
+                                </button>
+                            </div>
+                            <div id="products11" class="accordion-collapse collapse" data-bs-parent="#productsFaq">
+                                <div class="accordion-body">
+                                    <div class="product-content">
+                                        <div class="product-item">
+                                            <div class="tab-content product-img">
+                                                <div class="tab-pane active" id="One" role="tabpanel"
+                                                    aria-labelledby="One-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Two" role="tabpanel"
+                                                    aria-labelledby="Two-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Three" role="tabpanel"
+                                                    aria-labelledby="Three-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="four" role="tabpanel"
+                                                    aria-labelledby="four-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                            </div>
+                                            <ul class="nav" id="ProductTab" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link active" id="One-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#One" type="button" role="tab"
+                                                        aria-controls="One" aria-selected="true">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Two-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Two" type="button" role="tab"
+                                                        aria-controls="Two" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Three-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Three" type="button" role="tab"
+                                                        aria-controls="Three" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="product-item">
+                                            <div class="products-content">
+                                                <div class="h4 ">DT40/2</div>
+                                                <p>The thermodynamic DT40/2 disc steam traps are compact and
+                                                    lightweight-easy to install
+                                                    traps, excellent for high-pressure systems, including steam tracing
+                                                    applications.
+                                                    The insulation cover ensures consistent operation and makes it
+                                                    particularly suitable
+                                                    for those applications where the weather conditions may affect the
+                                                    normal operation.
+                                                </p>
+                                            </div>
+                                            <div class="download-Documents">
+                                                <a href="#" class="theme-btn btn-md">Documents</a>
+                                                <a href="#" class="theme-btn btn-md secondary-color">Send Email</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-item">
+                                            <ul class="product-sp">
+                                                <li>
+                                                    <div class="h6">MATERIAL</div>
+                                                    <p>Stainless steel</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">SIZES</div>
+                                                    <p>3/8” to 1” – DN 10 to DN 25 </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">CONNECTIONS</div>
+                                                    <p>
+                                                        Female threaded ISO 7 Rp or NPT
+                                                        Flanged EN PN 40
+                                                        Flanged ASME Class 150 or 300
+                                                        Socket weld (SW) ASME B16.11
+                                                        Butt weld (BW) ASME B16.25 on request
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING PRESSURE</div>
+                                                    <p>40 bar</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING TEMPERATURE</div>
+                                                    <p>300 ºC</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">FLOW RATE CAPACITY</div>
+                                                    <p>Up to 740 kg/h</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#products12" aria-expanded="false">
+                                    Steam Flow Meter
+                                </button>
+                            </div>
+                            <div id="products12" class="accordion-collapse collapse" data-bs-parent="#productsFaq">
+                                <div class="accordion-body">
+                                    <div class="product-content">
+                                        <div class="product-item">
+                                            <div class="tab-content product-img">
+                                                <div class="tab-pane active" id="One" role="tabpanel"
+                                                    aria-labelledby="One-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Two" role="tabpanel"
+                                                    aria-labelledby="Two-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="Three" role="tabpanel"
+                                                    aria-labelledby="Three-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                                <div class="tab-pane" id="four" role="tabpanel"
+                                                    aria-labelledby="four-tab">
+                                                    <img src="assets/img/angle-valve.png" alt="">
+                                                </div>
+                                            </div>
+                                            <ul class="nav" id="ProductTab" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link active" id="One-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#One" type="button" role="tab"
+                                                        aria-controls="One" aria-selected="true">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Two-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Two" type="button" role="tab"
+                                                        aria-controls="Two" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <button class="nav-link" id="Three-tab" data-bs-toggle="tab"
+                                                        data-bs-target="#Three" type="button" role="tab"
+                                                        aria-controls="Three" aria-selected="false">
+                                                        <img src="assets/img/angle-valve.png" alt="">
+                                                    </button>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                        <div class="product-item">
+                                            <div class="products-content">
+                                                <div class="h4 ">DT40/2</div>
+                                                <p>The thermodynamic DT40/2 disc steam traps are compact and
+                                                    lightweight-easy to install
+                                                    traps, excellent for high-pressure systems, including steam tracing
+                                                    applications.
+                                                    The insulation cover ensures consistent operation and makes it
+                                                    particularly suitable
+                                                    for those applications where the weather conditions may affect the
+                                                    normal operation.
+                                                </p>
+                                            </div>
+                                            <div class="download-Documents">
+                                                <a href="#" class="theme-btn btn-md">Documents</a>
+                                                <a href="#" class="theme-btn btn-md secondary-color">Send Email</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-item">
+                                            <ul class="product-sp">
+                                                <li>
+                                                    <div class="h6">MATERIAL</div>
+                                                    <p>Stainless steel</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">SIZES</div>
+                                                    <p>3/8” to 1” – DN 10 to DN 25 </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">CONNECTIONS</div>
+                                                    <p>
+                                                        Female threaded ISO 7 Rp or NPT
+                                                        Flanged EN PN 40
+                                                        Flanged ASME Class 150 or 300
+                                                        Socket weld (SW) ASME B16.11
+                                                        Butt weld (BW) ASME B16.25 on request
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING PRESSURE</div>
+                                                    <p>40 bar</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">MAX. OPERATING TEMPERATURE</div>
+                                                    <p>300 ºC</p>
+                                                </li>
+                                                <li>
+                                                    <div class="h6">FLOW RATE CAPACITY</div>
+                                                    <p>Up to 740 kg/h</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-content">
+                            <div class="footer-item">
+                                <a href="#" class="footer-logo">
+                                    <img src="assets/img/logo.png" alt="">
+                                </a>
+                                <p>Lorem Ipsum is simply dummy text of the printing and type-setting industry. Lorem
+                                    Ipsum has been the industry's standard dummy</p>
+                                <ul class="social">
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-item">
+                                <div class="h5 title">Pages</div>
+                                <ul class="itemList">
+                                    <li>
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">The Company</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Products</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Resources</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">News</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-item">
+                                <div class="h5 title">industry</div>
+                                <ul class="itemList">
+                                    <li>
+                                        <a href="#">Textile</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Food / Agro</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Chemical</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Steal</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Pharma / Hospital</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Paper</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-item">
+                                <div class="h5 title">INFORMATION</div>
+                                <ul class="information-list">
+                                    <li><i class="fa-solid fa-location-dot"></i> Fiot Fashion Demo Store Demo Store
+                                        Dhak-1216</li>
+                                    <li><i class="fa-solid fa-phone"></i> Call Us: 123-456-7898</li>
+                                    <li><i class="fa-solid fa-envelope"></i> Email Us: Support@test.com</li>
+                                    <li><i class="fa-solid fa-fax"></i> Fax: 123456</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright-content">
+                            <div class="copyright">
+                                <p>2021 - 22 Copy Right by Powered by</p>
+                            </div>
+                            <ul class="footer-policy">
+                                <li><a href="#">Terms & Condition</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/min.js"></script>
+
+
+</body>
+
+</html>
