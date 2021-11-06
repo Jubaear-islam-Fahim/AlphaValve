@@ -8,7 +8,7 @@
     */
     $(window).on('scroll', function () {
         var wScroll = $(this).scrollTop();
-        if (wScroll > 1) {
+        if (wScroll > 100) {
             $('.navArea').addClass('topnav');
         } else {
             $('.navArea').removeClass('topnav');
@@ -19,7 +19,7 @@
     $('.bannerSlid').owlCarousel({
         loop: true,
         margin: 10,
-        autoplay: false,
+        autoplay: true,
         responsiveClass: true,
         smartSpeed: 1200,
         autoplayTimeout: 7000,
@@ -37,8 +37,7 @@
         autoplay: true,
         responsiveClass: true,
         smartSpeed: 1200,
-        autoplayTimeout: 5000,
-        animateOut: 'fadeOut',
+        autoplayTimeout: 5000, 
         dots: false,
         nav: false,
         // navText: ['<i class="fa-solid fa-angles-left"></i>', '<i class="fa-solid fa-angles-right"></i>'],

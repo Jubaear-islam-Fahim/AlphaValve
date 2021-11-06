@@ -151,6 +151,7 @@ a:hover {
     z-index: 10;
     color: var(--block-color);
     padding: 12px 0;
+    transition: all .3s linear;
 }
 
 .navArea ul li .nav-link {
@@ -169,6 +170,14 @@ a:hover {
 .navArea .navbar-nav {
     gap: 10px;
 }
+
+.navArea.topnav {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 5px 5px 0px rgba(197,197,197,0.75);
+}
+
 
 .nabLogo .fa-solid {
     color: var(--block-color);
@@ -307,9 +316,10 @@ a.align-self-center.bar-icons {
 
 
 @media (min-width: 320px) and (max-width: 991px) {
-    .navArea ul li .nav-link{
+    .navArea ul li .nav-link {
         padding: 5px 1rem;
     }
+
     .nabRight {
         display: none !important;
     }
@@ -404,6 +414,23 @@ a.align-self-center.bar-icons {
     left: 5%;
 }
 
+@media (min-width: 1025px) and (max-width: 1380px) {
+    .bannerSlid .owl-nav .owl-next {
+        right: 1%;
+    }
+    
+    .bannerSlid .owl-nav .owl-prev {
+        left: 1%;
+    }
+    
+    .bannerSlid:hover .owl-nav .owl-next {
+        right: 1%;
+    }
+    
+    .bannerSlid:hover .owl-nav .owl-prev {
+        left: 1%;
+    }
+}
 @media (min-width: 670px) and (max-width: 1024px) {
     .bannerSlid .owl-nav [class*=owl-] {
         top: 100%;
@@ -933,6 +960,7 @@ a.align-self-center.bar-icons {
 
 .download-Documents .theme-btn {
     min-width: auto;
+    padding: 0 20px;
 }
 
 .product-item:nth-child(2) {
