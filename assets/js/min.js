@@ -19,7 +19,7 @@
     $('.bannerSlid').owlCarousel({
         loop: true,
         margin: 10,
-        autoplay: true,
+        autoplay: false,
         responsiveClass: true,
         smartSpeed: 1200,
         autoplayTimeout: 7000,
@@ -49,7 +49,10 @@
             600: {
                 items: 3,
             },
-            1000: {
+            1020: {
+                items: 3,
+            },
+            1200: {
                 items: 4,
             }
         }
@@ -93,7 +96,7 @@
         autoplay: true,
         responsiveClass: true,
         smartSpeed: 1200,
-        autoplayTimeout: 5000,
+        autoplayTimeout: 4000,
         animateOut: 'fadeOut',
         dots: false,
         nav: false,
@@ -103,7 +106,7 @@
                 items: 2,
             },
             600: {
-                items: 3,
+                items: 2,
             },
             1000: {
                 items: 4,

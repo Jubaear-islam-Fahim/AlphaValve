@@ -169,7 +169,7 @@ select {
     outline: none !important;
 }
 
-.accordion-button:focus { 
+.accordion-button:focus {
     box-shadow: none;
 }
 
@@ -178,14 +178,14 @@ select {
 }
 
 ::-moz-selection {
-    background-color: #b3d4fc;
-    color: #000000;
+    background-color: var(--primary-color);
+    color: var(--white-color);
     text-shadow: none;
 }
 
 ::selection {
-    background-color: #b3d4fc;
-    color: #000000;
+    background-color: var(--primary-color);
+    color: var(--white-color);
     text-shadow: none;
 }
 
@@ -203,4 +203,19 @@ select {
 
 .pb-100 {
     padding-bottom: 100px;
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+    .py-100 {
+        padding: 70px 0;
+    }
+
+    .pt-100 {
+        padding-top: 70px;
+    }
+
+    .pb-100 {
+        padding-bottom: 70px;
+    }
+ 
 }
