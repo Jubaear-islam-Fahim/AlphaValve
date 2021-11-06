@@ -800,6 +800,7 @@ a.align-self-center.bar-icons {
     .energy-products-list .nav-link {
         font-weight: 500;
         font-size: 13px;
+        padding: 10px;
     }
 
     .energy-saving-slid .owl-nav {
@@ -1253,6 +1254,7 @@ a.align-self-center.bar-icons {
 .about-content ul li::before {
     content: '----';
     color: var(--primary-color);
+    width: 25px;
 }
 
 .about-content p {
