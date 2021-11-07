@@ -175,7 +175,7 @@ a:hover {
     position: fixed;
     width: 100%;
     background: #fff;
-    box-shadow: 0px 5px 5px 0px rgba(197,197,197,0.75);
+    box-shadow: 0px 5px 5px 0px rgba(197, 197, 197, 0.75);
 }
 
 
@@ -271,12 +271,25 @@ a.align-self-center.bar-icons {
         min-width: 240px;
         border-radius: 0;
         box-shadow: 0px 2px 5px -1px rgba(210, 210, 210, 0.72);
+        border-top: 2px solid var(--primary-color);
+    }
+
+    .navbar .nav-item .dropdown-menu::before {
+        content: '\f0de';
+        font-family: "Font Awesome 6 Free";
+        font-weight: 700;
+        position: absolute;
+        top: -15px;
+        left: 50px;
+        font-size: 22px;
+        color: var(--primary-color);
     }
 
     .navbar .dropdown-menu.fade-down {
-        top: 80%;
+        top: 100%;
         transform: rotateX(-75deg);
         transform-origin: 0% 0%;
+        padding: 0;
     }
 
     .navbar .dropdown-menu.fade-up {
@@ -289,14 +302,15 @@ a.align-self-center.bar-icons {
         visibility: visible;
         top: 100%;
         transform: rotateX(0deg);
+
     }
 }
 
 .navbar .dropdown-item {
     font-size: 18px;
-    border-bottom: 1px solid var(--primary-color);
     padding: 8px 15px;
 }
+ 
 
 .navbar .dropdown-menu li:last-child .dropdown-item {
     border-bottom: 0;
@@ -306,8 +320,8 @@ a.align-self-center.bar-icons {
 .navbar .dropdown-item:active,
 .navbar .dropdown-item:focus,
 .navbar .dropdown-item:hover {
-    color: var(--primary-color);
-    background: none;
+    color: var(--white-color); 
+    background: var(--primary-color)
 }
 
 .offcanvas-start .active {
@@ -418,19 +432,20 @@ a.align-self-center.bar-icons {
     .bannerSlid .owl-nav .owl-next {
         right: 1%;
     }
-    
+
     .bannerSlid .owl-nav .owl-prev {
         left: 1%;
     }
-    
+
     .bannerSlid:hover .owl-nav .owl-next {
         right: 1%;
     }
-    
+
     .bannerSlid:hover .owl-nav .owl-prev {
         left: 1%;
     }
 }
+
 @media (min-width: 670px) and (max-width: 1024px) {
     .bannerSlid .owl-nav [class*=owl-] {
         top: 100%;
