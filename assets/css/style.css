@@ -423,6 +423,7 @@ a:hover {
 
     .navbar .product-all-menu .megamenu li a:hover {
         color: var(--primary-color);
+        font-size: 14px;
     }
 
     .product-all-menu .list-unstyled {
@@ -437,6 +438,7 @@ a:hover {
     border-bottom: 2px solid var(--primary-color);
     padding: 0 0 10px;
     margin-bottom: 15px;
+    font-weight: 600;
 }
 
 /* Banner */
